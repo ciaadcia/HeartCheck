@@ -1,11 +1,8 @@
 # HeartCheck
-| Name             | Content                                   |
-|------------------|--------------------------------------------|
-| main.py          | Main file                                  |
-| instructions.py  | File with text instructions                |
-| ruffier.py       | Calculating Ruffier index and recommendations |
-| scrollLabel.py   | Class for creating text                    |
-| coloredLayout.py | Class for creating colorful layout         |
-| seconds.py       | Timer                                      |
-| sits.py          | Squat timer                                |
-| runner.py        | “Runner” animation                         |
+| Name            | Content |
+|-----------------|---------|
+| my_app.py       | File utama yang menjalankan aplikasi dan mengatur ScreenManager |
+| instr.py        | File berisi teks instruksi untuk pengguna |
+| second_win.py   | Halaman untuk **timer** (penghitungan waktu selama tes Ruffier) |
+| final_win.py    | Halaman untuk **perhitungan hasil** dan analisis Heart Check / Ruffier Index |
+
