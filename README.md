@@ -1,4 +1,6 @@
 # HeartCheck
+About : Tes Ruffier membantu pengguna menilai keadaan sistem kardiovaskular tubuh mereka. Ini dirancang untuk memantau kinerja jantung selama aktivitas fisik dan mengevaluasi efektivitas kinerja tersebut.
+
 | Name            | Content |
 |-----------------|---------|
 | my_app.py       | File utama yang menjalankan aplikasi dan mengatur ScreenManager |
