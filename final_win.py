@@ -3,8 +3,6 @@ from PyQt5.QtGui import QDoubleValidator,QIntValidator,QFont
 from PyQt5.QtWidgets import QApplication,QWidget,QHBoxLayout,QVBoxLayout,QGridLayout,QGroupBox,QRadioButton,QPushButton,QLabel,QListWidget,QLineEdit
 from instr import *
 
-from instr import *
-
 class FinalWin(QWidget):
     def __init__(self):
         super().__init__()
@@ -24,4 +22,5 @@ class FinalWin(QWidget):
         self.setWindowTitle(txt_finalwin)
         self.resize(win_width, win_height)
         self.move(win_x, win_y)
+
 
