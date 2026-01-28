@@ -1,10 +1,7 @@
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import (
-    QApplication, QWidget,
-    QHBoxLayout, QVBoxLayout, QGridLayout,
-    QGroupBox, QRadioButton,
-    QPushButton, QLabel, QListWidget, QLineEdit
-)
+from PyQt5.QtCore import Qt,QTimer,QTime,QLocale
+from PyQt5.QtGui import QDoubleValidator,QIntValidator,QFont
+from PyQt5.QtWidgets import QApplication,QWidget,QHBoxLayout,QVBoxLayout,QGridLayout,QGroupBox,QRadioButton,QPushButton,QLabel,QListWidget,QLineEdit
+from instr import *
 
 from instr import *
 
@@ -18,7 +15,6 @@ class FinalWin(QWidget):
     def initUI(self):
         self.workh_text = QLabel(txt_workheart)
         self.index_text = QLabel(txt_index)
-
         self.layout_line = QVBoxLayout()
         self.layout_line.addWidget(self.index_text, alignment=Qt.AlignCenter)
         self.layout_line.addWidget(self.workh_text, alignment=Qt.AlignCenter)
@@ -28,3 +24,4 @@ class FinalWin(QWidget):
         self.setWindowTitle(txt_finalwin)
         self.resize(win_width, win_height)
         self.move(win_x, win_y)
+
