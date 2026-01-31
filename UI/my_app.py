@@ -1,18 +1,18 @@
 from PyQt5.QtCore import Qt, QTimer, QTime, QLocale
-from PyQt5.QtGui import QDoubleValidator, QIntValidator, QFont # checking the types of input values
+from PyQt5.QtGui import QDoubleValidator, QIntValidator, QFont 
 from PyQt5.QtWidgets import (
-       QApplication, QWidget,
+        QApplication, QWidget,
        QHBoxLayout, QVBoxLayout, QGridLayout,
        QGroupBox, QRadioButton,
        QPushButton, QLabel, QListWidget, QLineEdit)
 from instr import *
 from second_win import *
+
 class MainWin(QWidget):
     def __init__(self):
         super().__init__()
         self.set_appear()
         self.initUI()
-        self.connects()
         self.show()
     def initUI(self):
         self.btn_next = QPushButton(txt_next)
@@ -33,9 +33,7 @@ class MainWin(QWidget):
         self.resize(win_width, win_height)
         self.move(win_x, win_y)
 def main():
-   app = QApplication([])
-   mw = MainWin()
-   app.exec_()
-
-
+    app = QApplication([])
+    mw = MainWin()
+    app.exec_()
 main()
