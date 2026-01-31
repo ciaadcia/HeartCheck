@@ -7,7 +7,6 @@ from PyQt5.QtWidgets import (
        QPushButton, QLabel, QListWidget, QLineEdit)
 from instr import *
 from final_win import *
-
 class Experiment():
     def __init__(self, age, test1, test2, test3):
         self.age = age
