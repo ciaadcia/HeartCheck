@@ -13,6 +13,7 @@ class MainWin(QWidget):
         super().__init__()
         self.set_appear()
         self.initUI()
+        self.connects()
         self.show()
     def initUI(self):
         self.btn_next = QPushButton(txt_next)
